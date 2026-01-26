@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=swap');
+
+
+.hero {
+  width: 1117px;
+  display: flex;
+  align-items: center;
+  margin-top: 47px;
+}
+
+.heroinfo {
+  width: 665px;
+}
+
+.heroimg {
+  width: 597px;
+}
+
+.heroimg img {
+  transform: translateX(80px);
+  width: 110%;
+  height: 450px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+.hero_title {
+  font-size: 55px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.herotext {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #0F0101;
+  letter-spacing: 1.2px;
+}

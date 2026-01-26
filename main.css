@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 250px 0 250px;
+  background: #7f90c1;
+}
+
+.btn {
+  width: 165px;
+  height: 50px;
+  border: none;
+  background: #DC0048;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  transform: scale(1.1); 
+}
+
+
