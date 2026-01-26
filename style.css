@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 250px 0 250px;
+  background: #7289c7;
+}
+
+
+.heroimg {
+  width: 597px;
+}
+
+.heroimg img {
+  width: 100%;
+}
+
+.hero {
+  width: 1117px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroinfo {
+  width: 665px;
+
+}
