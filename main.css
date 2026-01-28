@@ -207,13 +207,13 @@ body {
   font-size: 44px;
   font-family: sans-serif;
   font-weight: 500;
-  text-shadow: 0 0 30px #fff;
 }
 
 .detailstitle b {
   display: block;
   margin-bottom: 100px;
-  color: #150101;
+  color: #fff;
+  text-shadow: 0 0 30px #111;
 }
  
 .productmenu ul {
