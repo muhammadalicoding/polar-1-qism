@@ -232,7 +232,7 @@ body {
 .insideboxes {
   display: flex;
   align-items: center;
-  gap: 80px;
+    gap: 80px;
 }
 
 .insideboxesimg {

@@ -48,6 +48,10 @@
     align-items: center;
   }
 
+  .insideboxes {
+    flex-direction: column;
+  }
+
   .deliverybox {
     width: 100%;
     max-width: 280px;
@@ -74,6 +78,10 @@
 
   .productmenu {
     display: none;
+  }
+
+  .insideboxesimg{
+    width: 100%;
   }
 
   .insideboxesinfo {
