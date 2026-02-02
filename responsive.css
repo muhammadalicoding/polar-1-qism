@@ -1,0 +1,92 @@
+@media (max-width:600px) {
+  .navmenu {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .heroinfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subtitle {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 10px;
+    
+  }
+
+  .hero_title {
+    font-size: 28px;
+    width: 100%;
+    line-height: 1.2;
+  }
+
+  .herotext {
+    font-size: 14px;
+    width: 100%;
+    max-width: 320px;
+    margin: 15px 0 25px 0;
+  }
+
+  .heroimg {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .delivery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .deliverybox {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .sedetails {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .detailstitle b {
+    margin: 0;
+  }
+
+  .detailsimg {
+    width: 100%;
+  }
+
+  .adelerightimg img {
+    width: 100%;
+  }
+
+  .productmenu {
+    display: none;
+  }
+
+  .insideboxesinfo {
+    text-align: center;
+  }
+
+  .productprice {
+    justify-content: center;
+  }
+
+  .productfooter {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+  }
+}
