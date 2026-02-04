@@ -379,7 +379,7 @@ body {
 .maskimg {
   width: 305px;
   height: 627px;
-  transform: translateY(50px);
+  /* transform: translateY(50px); */
 }
 
 .maskimg img {
