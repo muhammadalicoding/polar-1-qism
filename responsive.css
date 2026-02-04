@@ -4,10 +4,11 @@
   }
 
   .hero {
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    /* flex-wrap: wrap; */
   }
 
   .heroinfo {
@@ -97,5 +98,57 @@
     flex-direction: column;
     margin-top: 50px;
     gap: 30px;
+  }
+
+  .maskinfo h2 {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .maskinfo p {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .maskinfoul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .select , .addcart, .frderfood {
+    flex-direction: column;
+  }
+
+  .maskdownload {
+    flex-direction: column;
+  }
+
+  .question h2{
+    font-size: 20px;
+    padding: 0 4px;
+  }
+
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footerlogo {
+    margin: 0 auto;
+  }
+
+  .questioninp input {
+    width: 200px;
+  }
+
+  .footerinp input {
+    width: 200px;
+  }
+  .massanger {
+    justify-content: center;
+    padding: 10px 0;
   }
 }
