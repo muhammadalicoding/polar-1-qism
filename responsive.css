@@ -126,7 +126,8 @@
   }
 
   .question h2{
-    font-size: 32px;
+    width: 300px;
+    font-size: 20px;
     padding: 0 4px;
   }
 
@@ -150,5 +151,27 @@
   .massanger {
     justify-content: center;
     padding: 10px 0;
+  }
+
+  .footerinp  {
+    margin: 20px 0 30px 0;
+    border: none;
+  }
+
+  .detailstitle p {
+    width: 300px;
+  }
+
+  .adeletext p {
+    text-align: center;
+  }
+
+  .adelelogo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .adelelogoimg {
+   margin: 0 auto;
   }
 }
