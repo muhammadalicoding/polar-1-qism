@@ -65,8 +65,21 @@
     padding-top: 30px;
   }
 
+  .sedetails .container {
+    flex-direction: column;
+  }
+
+  .detailstitle {
+    max-width: 442px;
+  }
+   
+
   .detailstitle b {
     margin: 0;
+  }
+
+  .detailstitle p {
+    max-width: 442px;
   }
 
   .detailsimg {
@@ -141,13 +154,6 @@
     margin: 0 auto;
   }
 
-  .questioninp input {
-    width: 200px;
-  }
-
-  .footerinp input {
-    width: 200px;
-  }
   .massanger {
     justify-content: center;
     padding: 10px 0;
